@@ -1,6 +1,6 @@
 'use strict';
 
-function nullthrows(x, message) {
+export default function nullthrows(x, message) {
   if (x != null) {
     return x;
   }
