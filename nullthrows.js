@@ -9,7 +9,4 @@ function nullthrows(x, message) {
   throw error;
 }
 
-module.exports = nullthrows;
-module.exports.default = nullthrows;
-
-Object.defineProperty(module.exports, '__esModule', {value: true});
+export { nullthrows }
